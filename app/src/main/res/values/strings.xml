@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ACG_application</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="upload_Video" />
+    <string name="upload_image1">Upload Image</string>
+    <string name="upload_video">Upload Video</string>
+</resources>

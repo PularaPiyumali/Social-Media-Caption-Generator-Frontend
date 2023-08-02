@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_page"
+    tools:context=".MainActivity">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/heading"
+    android:text="Auto Caption Generator"
+    android:textColor="#31C4F3"
+    android:textSize="27dp"
+    android:textStyle="bold"
+    android:layout_marginTop="460dp"
+    android:gravity="center"
+    />
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/subheading"
+    android:layout_below="@id/heading"
+    android:text="Generate Your own Post Captions For Images and Videos"
+    android:gravity="center"
+    android:textColor="#0F637E"
+    android:textStyle="bold"
+    android:textSize="20dp"
+    android:padding="10dp"
+    android:background="@android:color/transparent" />
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/start"
+    android:layout_below="@id/subheading"
+    android:text="Let's Get Started"
+    android:backgroundTint="#31C4F3"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="20dp"
+    android:textSize="17dp"
+    />
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/logo"
+    android:src="@drawable/logo"
+    android:layout_marginLeft="140dp"
+    android:layout_marginTop="310dp" />
+
+</RelativeLayout>
